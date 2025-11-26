@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Digital Marketing For Startups</title>
+    <meta name="description" content="Master digital marketing for startups. Free guides, tools, tips, and resources for SEO, content, email, social media &amp; more." />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <header id="main-header" class="site-header">
+      <div class="container nav-container">
+        <div class="logo">Digital Marketing For Startups</div>
+        <nav class="main-nav" aria-label="Main navigation">
+          <ul class="nav-list">
+            <li><a href="#home" data-route="home" class="route-link active">Home</a></li>
+            <li><a href="#about" data-route="about">About</a></li>
+            <li><a href="#services" data-route="services">Services</a></li>
+            <li><a href="#blog" data-route="blog">Blog</a></li>
+            <li><a href="#resources" data-route="resources">Resources</a></li>
+            <li><a href="#tools" data-route="tools">Free Tools</a></li>
+            <li><a href="#contact" data-route="contact">Contact</a></li>
+          </ul>
+        </nav>
+        <form class="nav-search" id="navSearchForm" autocomplete="off">
+          <input type="text" class="form-control nav-search-input" placeholder="Search blog..." id="mainSearchBar"/>
+          <button type="submit" aria-label="Search" class="btn btn--primary btn--sm">🔍</button>
+        </form>
+        <button id="nav-cta" class="btn btn--primary btn--sm header-cta">Get Free Guide</button>
+        <button class="hamburger" id="navHamburger" aria-label="Open Menu"><span></span><span></span><span></span></button>
+      </div>
+    </header>
+    <nav id="mobile-nav" class="mobile-nav hidden" aria-label="Mobile menu">
+      <ul class="mobile-nav-list">
+        <li><a href="#home" data-route="home" class="route-link">Home</a></li>
+        <li><a href="#about" data-route="about">About</a></li>
+        <li><a href="#services" data-route="services">Services</a></li>
+        <li><a href="#blog" data-route="blog">Blog</a></li>
+        <li><a href="#resources" data-route="resources">Resources</a></li>
+        <li><a href="#tools" data-route="tools">Free Tools</a></li>
+        <li><a href="#contact" data-route="contact">Contact</a></li>
+      </ul>
+      <button id="closeMobileNav" class="btn btn--secondary btn--sm">Close</button>
+    </nav>
+    <main id="app-main" class="main-site-content" tabindex="-1">
+      <!-- Sections will be injected here by app.js -->
+    </main>
+    <footer class="footer">
+      <div class="container footer-container">
+        <div class="footer-logo">Digital Marketing For Startups</div>
+        <nav class="footer-nav" aria-label="Footer navigation">
+          <ul class="footer-links">
+            <li><a href="#home" data-route="home" class="route-link">Home</a></li>
+            <li><a href="#about" data-route="about">About</a></li>
+            <li><a href="#services" data-route="services">Services</a></li>
+            <li><a href="#blog" data-route="blog">Blog</a></li>
+            <li><a href="#resources" data-route="resources">Resources</a></li>
+            <li><a href="#tools" data-route="tools">Free Tools</a></li>
+            <li><a href="#contact" data-route="contact">Contact</a></li>
+          </ul>
+        </nav>
+        <div class="footer-social">
+          <a href="https://twitter.com" target="_blank" aria-label="Twitter" rel="noopener noreferrer"><svg width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M23 3a10.9 10.9 0 0 1-3.14 1.53A4.48 4.48 0 0 0 22.43.34a9.17 9.17 0 0 1-2.88 1.1A4.48 4.48 0 0 0 3.62 6.88 12.7 12.7 0 0 1 1.64.84a4.45 4.45 0 0 0 1.39 5.98A4.52 4.52 0 0 1 .96 6v.05A4.48 4.48 0 0 0 4.47 10.76a4.47 4.47 0 0 1-2.03.08 4.49 4.49 0 0 0 4.19 3.12A9 9 0 0 1 1 18.29a12.74 12.74 0 0 0 6.92 2" /></svg></a>
+          <a href="https://www.linkedin.com" target="_blank" aria-label="LinkedIn" rel="noopener noreferrer"><svg width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-4 0v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg></a>
+          <a href="https://www.facebook.com" target="_blank" aria-label="Facebook" rel="noopener noreferrer"><svg width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 2h-3.5A4.5 4.5 0 0 0 10 6.5V8H6v4h4v8h4v-8h3l1-4h-4V6.5A1.5 1.5 0 0 1 15.5 5H18z"/></svg></a>
+        </div>
+        <div class="footer-legal">
+          <div>&copy; 2025 Digital Marketing For Startups. All rights reserved.</div>
+          <div><a href="#privacy" data-route="privacy" class="route-link">Privacy Policy</a> | <a href="mailto:hello@digitalmarketingstartups.com">hello@digitalmarketingstartups.com</a></div>
+        </div>
+      </div>
+    </footer>
+    <div id="modalContainer" class="modal-root"></div>
+    <script src="app.js"></script>
+</body>
+</html>
